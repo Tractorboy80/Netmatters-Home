@@ -1,0 +1,56 @@
+
+.support-btn,
+.contact-btn {
+    padding: 5px 15px;
+    margin: 0px 0px 0px 20px;
+    height: 56px;
+    line-height: 46px;
+}
+
+.header-row {
+    padding: 20px 0px;
+}
+
+.logo-container {
+    padding-left: 10px;
+}
+
+.netmatters-logo {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.actions {
+    padding: 7px 10px 7px 0px;
+    float: right;
+}
+
+.hamburger {
+    margin-left: 20px;
+    width: 63px;
+    height: 56px;
+    font-size: 12px;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 3px;
+    background: #333645;
+    border-color: #333645;
+    text-transform: uppercase;
+    &:hover {
+        border-color: #333645;
+        background:#1f212a;
+    }
+
+}
+.fa-bars {
+font-size: 30px;
+}
+
+
+
+
+
+

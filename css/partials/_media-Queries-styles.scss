@@ -1,0 +1,68 @@
+
+
+
+@media (max-width: 1310px) {
+    .outer-container {
+        display: none;
+    }
+}
+
+@media (min-width: 1260px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1210px) {
+    .support-btn,
+    .contact-btn {
+        display: none;
+    }
+    .bottom-banner {
+        display: none;
+    }
+    .bottom-banner-row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991px) {
+    .tool-tips {
+        display: none;
+    }
+    .spacing {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .space {
+        margin: 30px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .latest-card-three {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .social-media-container a {
+        width: 210px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

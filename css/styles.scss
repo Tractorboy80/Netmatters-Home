@@ -1,0 +1,32 @@
+
+// partials-imports
+
+@import 'partials/header-styles',
+        'partials/main-nav-bar-styles',
+        'partials/responsive-image-styles',
+        'partials/middle-section-cards-styles',
+        'partials/jumbotron-styles',
+        'partials/latest-bar-styles',
+        'partials/latest-card-section-styles',
+        'partials/logo-container-styles',
+        'partials/footer-styles',
+        'partials/bottom-banner-styles',
+        'partials/base-colors-styles',
+        'partials/media-Queries-styles';
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+
+
+
+
+
+

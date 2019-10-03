@@ -1,0 +1,82 @@
+
+.bussey-logo,
+.crane-logo,
+.diver-logo {
+    padding: 0px 20px;
+}
+
+.beat-logo {
+    padding: 0px 20px 0px 0px;
+}
+
+.pop-up-styles {
+    display: none;
+    position: absolute;
+    bottom: 118px;
+    background-color: #333645;
+    color: #fff;
+    padding: 20px;
+    width: 260px;
+    h3 {
+        position: relative;
+        font-size: 18px;
+        color: #fff;
+        padding: 0 0 17px;
+        margin: 0 0 11px;
+    }
+    h3::after{
+        content:'';
+        background-color: #fff;
+        position: absolute;
+        height: 3px;
+        width: 28px;
+        margin: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    p {
+        font-size: 13px;
+        color: #fff;
+    }
+}
+
+.arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -36px;
+}
+
+.arrow:after {
+    content:'';
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    border-style: solid;
+    border-width: 35px 36px 0 36px;
+    border-color: #333645 transparent transparent transparent;
+}
+
+.logo-hover {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.logo-hover:hover {
+    filter: none;
+    .pop-up-styles {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
